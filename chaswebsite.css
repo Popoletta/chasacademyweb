@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.navigering {
+    height: 100px;
+    background: #f4f4f4;
+    padding: 0 50px;
+    display: flex;
+    align-items: center;
+}
+
+.link {
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #222222;
+    margin-right: 20px;
+}
+
+.link-logga {
+    margin-right: auto;
+}
+
+.link-logga img {
+    width: 90px;
+    height: 90px;
+    object-fit: contain;
+}
+
+.button {
+    padding: 12px 25px;
+    border: none;
+    border-radius: 50px;
+    background: #4e62f6;
+    color: #fff;
+    font-size: 16px;
+}
+
+.introduction {
+    background-image: url("https://www.datocms-assets.com/91872/1702474694-chas-academy-hero-homepage.jpg?fit=clamp&fm=webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    font-size: 56px;
+    width: 600px;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.description {
+    font-size: 22px;
+    width: 400px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.aboutus {
+    padding: 100px 50px;
+    display: flex;
+    background: #f8fcfc;
+}
+
+.aboutus-image {
+    width: 50%;
+}
+
+.aboutus-image img {
+    width: 500px;
+    height: 500px;
+    border-radius: 50px;
+}
+
+.aboutus-text {
+    width: 50%;
+}
+
+.aboutus-title {
+    color: #000000;
+    text-align: left;
+    margin-bottom: 20px;
+    width: unset;
+}
+
+.subtitle {
+    font-size: 26px;
+    margin-bottom: 40px;
+}
+
+.aboutus-description {
+    color: #4a4a4a;
+    text-align: left;
+    font-size: 20px;
+    width: unset;
+    line-height: 1.6;
+}
+
+.recomendations {
+    padding: 100px 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.recomendations .title {
+    color: #222222;
+    width: 100%;
+    font-size: 42px;
+}
+
+.recomendation {
+    width: 30%;
+    text-align: center;
+}
+
+.recomendation img {
+    width: 250px;
+}
+
+.recomendation h3 {
+    text-align: left;
+    margin-bottom: 15px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.recomendation h2 {
+    text-align: left;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.recomendation p {
+    text-align: left;
+    margin-bottom: 25px;
+    font-size: 16px;
+    line-height: 1.6; /*  */
+}
+
+.apply {
+    background: #4e62f6;
+    padding: 100px 50px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.apply .button {
+    background: #fff;
+    color: #4e62f6;
+}
+
+footer {
+    background: #fbfcf9;
+    padding: 100px 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer ul {
+    list-style: none;
+    width: 30%;
+}
+
+footer li {
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+footer a {
+    color: #222222;
+    line-height: 1.6;
+}
+
+footer img {
+    width: 20%;
+    object-fit: contain;
+    object-position: top;
+}
